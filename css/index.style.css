@@ -308,3 +308,10 @@
     color: #fff;
     transition: 0.4s;
   }
+  footer {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: #0062d3;
+  }
