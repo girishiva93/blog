@@ -266,3 +266,45 @@
     width: 25%;
     float: left;
   }
+  .subscribe{
+   font-size: 25px;
+   position: relative;
+  }
+  .subscribe::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -3px;
+  }
+  .ad{
+    text-align: justify;
+  }
+  .sub-name,.sub-email{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 20px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 20px;
+    margin-left: 0%;
+  }
+  .submit{
+    background: #0078ff;
+    border: 0;
+    margin-left: 25%;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  .submit:hover{
+    box-shadow: 0 0 0 4px #cde1f8;
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+  }
