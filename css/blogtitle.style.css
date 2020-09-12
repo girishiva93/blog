@@ -140,19 +140,13 @@
   bottom: -9px;
 }
 .text-img-title {
-    margin-left: 1%;
     font-size: 25px;
 }
 .name{
     color: red !important;
 }
 .description{
-    width: 90%;
-    margin-left: 5%;
     text-align: justify;
-}
-.auth{
-    margin-left: 1.5%;
 }
 
 footer {
