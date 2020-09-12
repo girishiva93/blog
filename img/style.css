@@ -1,0 +1,47 @@
+table{
+	padding-left: 10px;
+	background-color: rgba(160,160,160,0.6);
+	border-radius: 30px;
+}
+.tab img{
+	width: 250px;
+	height: auto;
+}
+.tab{
+	border-spacing: 20px 20px;
+}
+td{
+	max-width: 700px;
+}
+.about{
+	background-color: skyblue;
+	animation-name: head;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+@keyframes head{
+	20%{background-color: skyblue;}
+	20%{background-color: lightgreen;}
+	20%{background-color: brown;}
+	20%{background-color: pink;}
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 10px 10px 5px grey;
+	border: 0.5px solid black;
+	border-radius: 300px;
+}
+h2{
+	text-decoration: underline;
+	text-shadow: 10px 0px 9px black;
+}
+p{
+	background-color: white;
+	margin: 20px;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 30px;
+}
